@@ -2135,11 +2135,11 @@ body {
       transition-duration: 59s;
       transition-timing-function: cubic-bezier(.34,0,.84,1);
     }.markdownIt-TOC a {
-      color: #364fc7;
-      border-bottom-color: #364fc7;
+      color: #eee;
+      border-bottom-color: #eee;
     }.markdownIt-TOC a:hover {
-      color: #212529;
-      border-bottom-color: #212529;
+      color: #fff;
+      border-bottom-color: #fff;
     }.active-current > a {
       color: #fc6423 !important;
       border-bottom-color: #fc6423 !important;
@@ -2175,6 +2175,8 @@ body {
     }
     .mist .site-title i {
       background: #FFFFFFfe;
+    }.box-shadow-wrapper {
+      padding: 10px;
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {

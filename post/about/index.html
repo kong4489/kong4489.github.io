@@ -1,0 +1,1987 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="温故而知新">
+<meta name="theme-color" content="#000">
+<title>关于 | L-XQ</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1597024225811">
+<link rel="stylesheet" href="/media/css/gemini.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/default.css"
+  rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/main.css">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+  <meta name="description" content="关于" />
+  <meta name="keywords" content="" />
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>L-XQ</span>
+            </a>  
+          
+        </div>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout gemini ">
+      <div class="section-layout-wrapper">
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active language" data-lan="index">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item language" data-lan="preview">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+            <div class="post-side-meta" id="post_side_meta">
+              
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">林秋</p>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">0</span>
+        <span class="site-item-stat-name language" data-lan="category">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">0</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://kong4489.github.io/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+
+
+
+  <div style="width: 100%; position: relative;">
+    <canvas id="canvasDiyBlock" style="width:100%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+    <script src="/media/js/magic/clock.js"></script>
+  </div>
+
+</div>
+            </div>
+            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+              <div class="toc-box right-motion">
+  <div class="toc-wrapper auto-number auto"
+    id="toc_wrapper">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
+<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
+<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
+<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+</div>
+
+<script>
+
+  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
+  let active = 'active-show', activeClass = 'active-current';
+  let tocWrapper = document.querySelector('#toc_wrapper');
+  let tocContent = tocWrapper.children[0];
+  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
+
+  function addTocNumber(elem, deep) {
+    if (!elem) {
+      return;
+    }
+    let prop = elem.__proto__;
+
+    if (prop === HTMLUListElement.prototype) {
+      for (let i = 0; i < elem.children.length; i++) {
+        addTocNumber(elem.children[i], deep + (i + 1) + '.');
+      }
+    } else if (prop === HTMLLIElement.prototype) {
+      // 保存li元素
+      if (elem.children[0] && elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
+        lList.push(elem);
+      }
+      for (let i = 0; i < elem.children.length; i++) {
+        let cur = elem.children[i];
+        if (cur.__proto__ === HTMLAnchorElement.prototype) {
+          if (autoNumber) {
+            cur.text = deep + ' ' + cur.text;
+          }
+        } else if (cur.__proto__ === HTMLUListElement.prototype) {
+          addTocNumber(cur, deep);
+        }
+      }
+    }
+  }
+
+  function removeParentActiveClass() {
+    let parents = tocContent.querySelectorAll('.' + active)
+    parents.forEach(function (elem) {
+      elem.classList.remove(active);
+    });
+  }
+
+  function addActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.add(activeClass);
+    }
+  }
+
+  function removeActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.remove(activeClass);
+    }
+  }
+
+  function addActiveLiElemment(elem, parent) {
+    if (!elem || elem === parent) {
+      return;
+    } else {
+      if (elem.__proto__ === HTMLLIElement.prototype) {
+        elem.classList.add(active);
+      }
+      addActiveLiElemment(elem.parentElement, parent);
+    }
+  }
+
+  function showToc() {
+    if (tocWrapper) {
+      postBody = document.querySelector('#post_body');
+      for (let i = 0; i < postBody.children.length; i++) {
+        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
+          hList.push(postBody.children[i]);
+        }
+      }
+      if (tocWrapper.classList.contains('compress')) {
+        tocContent.classList.add('closed');
+      } else if (tocWrapper.classList.contains('no_compress')) {
+        tocContent.classList.add('expanded');
+      } else {
+        if (hList.length > 10) {
+          active = 'active-hidden'
+          tocContent.classList.add('closed');
+        } else {
+          tocContent.classList.add('expanded');
+        }
+      }
+    }
+  }
+
+  (function () {
+    // 处理不是从#一级标题开始目录
+    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
+      let con = tocContent.children[0].children[0];
+      tocContent.innerHTML = con.innerHTML;
+    }
+    let markdownItTOC = document.querySelector('.markdownIt-TOC');
+    let innerHeight = window.innerHeight;
+    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
+    addTocNumber(tocContent, '');
+  })();
+
+  document.addEventListener('scroll', function (e) {
+    if (lList.length <= 0) {
+      return;
+    }
+    let scrollTop = document.scrollingElement.scrollTop + 10;
+    let dir;
+
+    if (lastTop - scrollTop > 0) {
+      dir = 'up';
+    } else {
+      dir = 'down';
+    }
+
+    lastTop = scrollTop;
+    if (scrollTop <= 0) {
+      if (lastIndex >= 0 && lastIndex < hList.length) {
+        lList[lastIndex].classList.remove(activeClass);
+      }
+      return;
+    }
+
+    let current = 0, hasFind = false;
+    for (let i = 0; i < hList.length; i++) {
+      if (hList[i].offsetTop > scrollTop) {
+        current = i;
+        hasFind = true;
+        break;
+      }
+    }
+    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
+      current = hList.length - 1;
+    } else {
+      current--;
+    }
+    if (dir === 'down') {
+      if (current > lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex)
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    } else {
+      if (current < lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex);
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    }
+  });
+
+
+  window.addEventListener('load', function () {
+    showToc();
+    document.querySelector('#sidebar').style = 'display: block;';
+    tocWrapper.classList.add('toc-active');
+    setTimeout(function () {
+      if ("createEvent" in document) {
+        let evt = document.createEvent("HTMLEvents");
+        evt.initEvent("scroll", false, true);
+        document.dispatchEvent(evt);
+      }
+      else {
+        document.fireEvent("scroll");
+      }
+    }, 500)
+  })
+
+</script>
+            </div>
+          
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://kong4489.github.io/post/about/">
+      关于
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2019-01-25 19:09:48">2019-01-25</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>31<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+            <div class="post-body next-md-body" id="post_body">
+              <blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
+
+            </div>
+            
+            
+            
+  
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a
+        href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+  <div class="bg-img">
+    <img src="\media\images\custom-bgImg.jpg" />
+  </div>
+  
+  
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+    back2TopText = document.querySelector('#back_to_top_text'),
+    drawerBox = document.querySelector('#drawer_box'),
+    rightSideBar = document.querySelector('.sidebar'),
+    viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener('scroll', function (e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+
+  let hasCacu = false;
+  window.onresize = function () {
+    calcuHeight();
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, transitionDir, {});
+          }
+        })
+        window.Velocity(viewport, openProp, {
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'false'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target", "_blank");
+      }
+    })
+  }
+
+  let faSearch = document.querySelector('#fa_search');
+  faSearch.addEventListener('click', function () {
+    document.querySelector('#search_mask').style = ''
+  })
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+  
+  // 离开当前页title变化
+  var leaveTitle = "";
+  if (leaveTitle) {
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState == 'hidden') {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px;border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+    <div class="reward-mask" style="display: none;">
+  <div class="reward-relative">
+    <span class="close" aria-hidden="true">x</span>
+    <div class="reward-body">
+      <h2>感谢您的支持，我会继续努力的!</h2>
+      <div class="reward-img-box">
+        <div style="position: relative; width: 140px; height: 140px;">
+          
+          
+          
+        </div>
+      </div>
+      <p class="reward-word">扫码打赏，你说多少就多少</p>
+      <p class="reward-tip">打开微信扫一扫，即可进行扫码打赏哦</p>
+    </div>
+    <div class="bottom">
+      
+      
+    </div>
+  </div>
+</div>
+<style>
+  .reward-mask {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000054;
+  }
+
+  .reward-relative {
+    position: relative;
+    width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 50%;
+    margin-top: -205px;
+  }
+
+  .reward-relative .close {
+    position: absolute;
+    right: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #929292;
+  }
+
+  .reward-body {
+    padding: 40px 20px 20px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .reward-btn {
+    text-align: center;
+  }
+
+  .reward-btn-text {
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #ff9734;
+    color: #FFF;
+    margin-top: 20px;
+  }
+
+  .pay-text {
+    margin-top: 10px;
+    padding: 10px;
+    flex: 1;
+    transition: all .2s linear;
+  }
+
+  .pay-text:hover {
+    background-color: #a5a5a536;
+  }
+
+  .reward-body h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 20px;
+  }
+
+  .reward-body h2:after,
+  .reward-body h2:before {
+    font-family: Arial, Helvetica, sans-serif;
+    background: 0 0;
+    width: 0;
+    height: 0;
+    font-style: normal;
+    color: #eee;
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .reward-body h2:before {
+    content: '\201c';
+    left: 50px;
+  }
+
+  .reward-body h2:after {
+    content: '\201d';
+    right: 80px;
+  }
+
+  .reward-img-box {
+    display: inline-block;
+    padding: 10px;
+    border: 6px solid #ea5f00;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+  }
+
+  .reward-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .reward-relative {
+      height: 100%;
+      top: 0px;
+      margin-top: 0;
+      width: auto;
+    }
+
+    .reward-relative .bottom {
+      flex-direction: column;
+    }
+
+    .reward-relative .pay-text {
+      width: 80%;
+      margin: 5px auto;
+      border: 1px solid silver;
+      padding: 6px;
+      border-radius: 4px;
+    }
+
+    .reward-body h2:after {
+      right: 40px;
+    }
+
+    .reward-body h2:after,
+    .reward-body h2:before {
+      font-size: 60px;
+    }
+
+    .reward-body h2:before {
+      left: 20px;
+    }
+  }
+</style>
+<script>
+  !function () {
+    var mask = document.querySelector('.reward-mask');
+    let close = document.querySelector('.reward-relative .close');
+    let rewardBtn = document.querySelector('.reward-btn');
+
+    let zfb = document.querySelector('#zfb'),
+      wx = document.querySelector('#wx'),
+      zfbBtn = document.querySelector('#zfbBtn'),
+      wxBtn = document.querySelector('#wxBtn');
+
+    if (zfbBtn && wxBtn) {
+      zfbBtn.addEventListener('click', () => {
+        window.Velocity(zfb, 'transition.slideLeftIn', {
+          duration: 400
+        });
+        window.Velocity(wx, 'transition.slideRightOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+
+      wxBtn.addEventListener('click', () => {
+        window.Velocity(wx, 'transition.slideRightIn', {
+          duration: 400
+        });
+        window.Velocity(zfb, 'transition.slideLeftOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+    }
+
+    rewardBtn.addEventListener('click', (e) => {
+      window.Velocity(mask, 'transition.slideDownIn', {
+        duration: 400
+      })
+    });
+
+    close.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.Velocity(mask, 'transition.slideUpOut', {
+        duration: 400
+      })
+    })
+  }()
+</script>
+
+  </div>
+</body>
+
+<div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://kong4489.github.io/post/biji/"" data-c="
+          &lt;h1 id=&#34;网络安全行业介绍及基本知识&#34;&gt;&lt;strong&gt;网络安全行业介绍及基本知识&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;一-网络安全角色定位&#34;&gt;&lt;strong&gt;一、网络安全角色定位&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;白帽子（白客）：就是指从事正当行业的黑客&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;黑客 ：闯入计算机系统或者网络系统者&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;骇客：从事恶意破解商业软件、恶意入侵别人的网站等事务&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;红客：是指维护国家利益，不利用网络技术入侵自己国家电脑，而是“维护正义，为自己国家争光的黑客&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;二-网络安全职业分类&#34;&gt;&lt;strong&gt;二、网络安全职业分类&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;网络安全工程师（10K）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;技术要求：运维基础和网络安全&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;渗透测试工程师（15K以上）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;中级渗透测试工程师（15K）：web安全、内网渗透和代码知识（Java、python和Goalng**等）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;高级渗透测试工程师（20K上）：在中级的基础上要了解APT方向&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;三-src企业安全应急响应中心&#34;&gt;&lt;strong&gt;三、SRC（企业安全应急响应中心）&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;应急响应中心是企业安全团队与外部白帽子和研究人员交流的一个桥梁平台。有了平台可以通过 SRC 对安全漏洞进行收集，并对漏洞及时响应。研究人员通过提交发现的漏洞给 SRC 平台，一旦漏洞得到企业的确认意味着企业对研究人员挖掘的漏 洞结果得到认可，同时提供一笔现金奖励，鼓励研究 人员继续挖掘漏洞，从而帮助企业安全无法覆盖到的一面。&lt;/p&gt;
+&lt;p&gt;通过和第三方合作的平台：补天、漏洞盒子、乌云和sobug&lt;/p&gt;
+&lt;h2 id=&#34;四-web安全&#34;&gt;&lt;strong&gt;四、WEB安全&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1什么是web应用&#34;&gt;&lt;strong&gt;1.什么是web应用&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Web应用程序是一种可以通过Web访问的应用程序。Web应用程序的一个最大好处是用户很容易访问应用程序。用户只需要有浏览器即可,不需要再安装其他软件。一个Web应用程序是由完成特定任务的各种Web组件(web components)构成的并通过Web将服务展示给外界&lt;/p&gt;
+&lt;h3 id=&#34;2什么是web安全&#34;&gt;&lt;strong&gt;2.什么是web安全&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;通过web应用上面出现的一些漏洞&lt;/p&gt;
+&lt;h3 id=&#34;3web网站是如何搭建的&#34;&gt;&lt;strong&gt;3.web网站是如何搭建的&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;搭建网站需要：服务器、容器、数据库、脚本&lt;/p&gt;
+&lt;p&gt;服务器：通常情况下主机一般为个人使用的电脑PC机，而服务器则是指专业使用电脑PC机，实质上服务器和主机没什么意义上的区别。通常情况下服务器的操作系统为：Windows2003，Windows2008，Windows2012，Windows2016，Windows2019等版本作为服务器版本，稳定性强。个人电脑通常使用Windows2000，Windows XP  Windows 8  Windows 10等操作系统，质量性强。&lt;/p&gt;
+&lt;p&gt;容器（软件）：搭建网站的依赖生存环境，常见的软件有Apache（PHP+mysql）、Nginx（PHP+mysql）、tomcat（JSP+Oracle）、IIS（ASP+access和ASPX+mysql）其中，IIS并发能力低，Apache和Nginx抗并发，支持高并发，其中Nginx支持并发性能更佳&lt;/p&gt;
+&lt;p&gt;Nginx：轻量级采用C编写，占用更少的内存和资源，高并发，处理静态文件更快，是Apache的三倍以上，Nginx采用模块化开发，配置简洁，Nginx作为负载均衡服务器，支持7层以上负载均衡。&lt;/p&gt;
+&lt;p&gt;Apache：rewrite比Nginx更强大，Apache更加成熟，bug少，超稳定，Apache动态请求更加有优势，Nginx在这方面比较鸡肋，&lt;/p&gt;
+&lt;p&gt;两者的核心在于Apache是同步多进程模型，一个连接对应一个进程，而Nginx是异步的，多个连接（万级别）可以对应一个进程。&lt;/p&gt;
+&lt;p&gt;数据库：存放在计算机存储器中，按照一定格式编成的相互关联的各种数据的集合，供用户迅速有效地进行数据处理。&lt;/p&gt;
+&lt;p&gt;常用数据库：access，SqlServer，mysql，Oracle，Redis，MongoDB。&lt;/p&gt;
+&lt;p&gt;脚本：脚本（Script），是使用一种特定的描述性语言，依据一定的格式编写的可执行文件，通常由ASP、ASPX、JSP、PHP等类型&lt;/p&gt;
+&lt;h3 id=&#34;4数据库知识&#34;&gt;&lt;strong&gt;4.数据库知识&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;数据库结构关系：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;库——&amp;gt;表——&amp;gt;列——&amp;gt;值
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;数据库中默认的最高权限管理员账户对应关系：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;SqlServer   ————     SA 
+Oracle      ————     SYS 
+MYSQL       ————     root
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;mysql中的用户使用@符号后面的内容的含义是：限制该用户只能在@后面的IP主机登录&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;例如：root@127.0.0.1  //表示root账号只允许从本机登录，不允许从其他登录 
+例如：root@%          //表示root用户可以使用任何IP从任何计算机登录
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;5ip知识&#34;&gt;&lt;strong&gt;5.IP知识&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;本机&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;127.0.0.1 
+localhost
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;局域网&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;局域网一般被称为内网，通常由交换机，网线和PC组成。交换机是组建内网的关键设备
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;广域网&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;广域网（英语：Wide Area Network，缩写为 WAN），又称广域网、外网、公网。是连接不同地区局域网或城域网计算机通信的远程网。通常跨接很大的物理范围，所覆盖的范围从几十公里到几千公里，它能连接多个地区、城市和国家，或横跨几个洲并能提供远距离通信，形成国际性的远程网络。广域网并不等同于互联网。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;公网&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;全世界都可以访问到的
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;IP地址&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;P地址（Internet Protocol Address）是指互联网协议地址，又译为网际协议地址。 IP地址是IP协议提供的一种统一的地址格式，它为互联网上的每一个网络和每一台主机分配一个逻辑地址，以此来屏蔽物理地址的差异。 IP地址位32位制 十进制：x.x.x.x  X的范围为0 ~ 255
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;IP地址分类&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ISO定义五大类：（是以IP地址的第一位进行区分的） 
+A类：1-126 默认子网掩码：255.0.0.0 
+B类：128-191 默认子网掩码：255.255.0.0 
+C类：192-223 默认子网掩码：255.255.255.0 
+D类：224-239 组播地址 
+E类：240-254 科研使用
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;IP段的划分&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;A段  192.0.0.0/8 
+B段  192.168.0.0/16 
+C段  192.168.1.0/24
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;6加密&#34;&gt;&lt;strong&gt;6.加密&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;分为：md5，mysql5，aes，sha256等等&lt;/p&gt;
+&lt;h3 id=&#34;7编码&#34;&gt;&lt;strong&gt;7.编码&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;分为：base64，url编码，16进制，hex编码等等&lt;/p&gt;
+&lt;h3 id=&#34;8加密与编码的区别&#34;&gt;&lt;strong&gt;8.加密与编码的区别&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;编码&lt;/strong&gt;使用公开可用的方案将数据转换为另一种格式，以便可以轻松地将其反转。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;加密&lt;/strong&gt;将数据转换为另一种格式，使得只有特定的个人才能逆转转换。&lt;/p&gt;
+&lt;p&gt;总结-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;编码&lt;/strong&gt;用于维护数据可用性，并使用公开可用的方案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;加密&lt;/strong&gt;用于维护数据机密性，因此，反向转换（密钥）的能力仅限于某些人。&lt;/p&gt;
+&lt;h3 id=&#34;9cms文章内容管理系统&#34;&gt;&lt;strong&gt;9.CMS（文章内容管理系统）&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;内容管理系统（content management system，CMS）是一种位于WEB 前端（Web 服务器）和后端办公系统或流程（内容创作、编辑）之间的软件系统。内容的创作人员、编辑人员、发布人员使用内容管理系统来提交、修改、审批、发布内容。这指的“内容”可能包括文件、表格、图片、数据库中的数据甚至视频等一切你想要发布到Internet、Intranet以及Extranet网站的信息。&lt;/p&gt;
+&lt;p&gt;论坛CMS：discuz&lt;/p&gt;
+&lt;p&gt;商城CMS:shopnc,&lt;/p&gt;
+&lt;p&gt;官网CMS：PHPcms,DEDEcms,帝国CMS，Wordpress&lt;/p&gt;
+&lt;p&gt;开源的CMS：将web的应用源码进行公开，给社会免费试用！&lt;/p&gt;
+&lt;h3 id=&#34;10计算机端口&#34;&gt;&lt;strong&gt;10.计算机端口&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;计算机拥有65535个端口号&lt;/p&gt;
+&lt;p&gt;&amp;quot;端口&amp;quot;是英文port的意译，可以认为是设备与外界通讯交流的出口。&lt;/p&gt;
+&lt;p&gt;端口可分为虚拟端口和物理端口，其中虚拟端口指计算机内部或交换机路由器内的端口，不可见&lt;/p&gt;
+&lt;p&gt;FTP文件传输协议端口：20/21 ,&lt;/p&gt;
+&lt;p&gt;HTTP超文本传输协议端口号：80/443，&lt;/p&gt;
+&lt;p&gt;POP3邮局协议端口：110，&lt;/p&gt;
+&lt;p&gt;DNS域名系统端口：53，&lt;/p&gt;
+&lt;p&gt;Telnet远程桌面连接协议，端口23，&lt;/p&gt;
+&lt;p&gt;DHCP动态IP分配协议，端口67/68,&lt;/p&gt;
+&lt;p&gt;SSH协议，端口：22&lt;/p&gt;
+&lt;p&gt;mysql默认端口： 3306，&lt;/p&gt;
+&lt;p&gt;Oracle默认端口：1521，&lt;/p&gt;
+&lt;p&gt;查看本机的计算机通信端口命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;netstat -an 
+netstat -ano | find &amp;quot;端口号&amp;quot;   查找指定端口号的服务 
+tasklist /svc  | find &amp;quot;pid&amp;quot;    根据PID查找具体服务
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;11通信协议&#34;&gt;&lt;strong&gt;11.通信协议&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Web：http不加密；https加密&lt;/p&gt;
+&lt;p&gt;TCP/IP协议&lt;/p&gt;
+&lt;p&gt;UDP协议&lt;/p&gt;
+&lt;p&gt;DNS协议&lt;/p&gt;
+&lt;h3 id=&#34;12集成环境&#34;&gt;&lt;strong&gt;12.集成环境&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;将容器与数据库与脚本自动化安装，无需人工干扰&lt;/p&gt;
+&lt;h3 id=&#34;13服务启动与程序启动&#34;&gt;&lt;strong&gt;13.服务启动与程序启动&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;程序启动在主机关机或者用户注销账户后容器与数据库将会自动关闭。&lt;/p&gt;
+&lt;p&gt;服务模式则是在系统启动后自动运行程序&lt;/p&gt;
+&lt;h3 id=&#34;14虚拟主机云服务器物理主机&#34;&gt;&lt;strong&gt;14.虚拟主机，云服务器，物理主机&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;虚拟主机：基于云服务器上的一个目录的操作权限&lt;/p&gt;
+&lt;p&gt;云服务器：从物理服务器分割出来的一个虚拟机&lt;/p&gt;
+&lt;p&gt;物理服务器：相当于自己的PC电脑&lt;/p&gt;
+&lt;h3 id=&#34;15网站根目录和默认网站首页&#34;&gt;&lt;strong&gt;15.网站根目录和默认网站首页&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;网站根目录：是指web服务器中存放网站的第一层文件夹。&lt;/p&gt;
+&lt;p&gt;默认网站首页：即网站默认文档，他是指在访问一个文件目录的时候自动定位的一个文件。&lt;/p&gt;
+&lt;h3 id=&#34;16cookie和session&#34;&gt;&lt;strong&gt;16.Cookie和Session&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Cookie用户的信息，存储于客户端&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;键名   键值 
+name   admin 
+pass   123456
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Session存储于服务端，可进行验证识别&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;asp     ASPSESSIONIDSSSABQTQ 
+aspx    ASP.NET_SessionId 
+jsp     JSESSIONID 
+php     PHPSESSID
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;17windows和linux的区别&#34;&gt;&lt;strong&gt;17.Windows和Linux的区别&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;windows有GUI，不区分大小写&lt;/p&gt;
+&lt;p&gt;Linux无GUI，区分大小写&lt;/p&gt;
+&lt;h3 id=&#34;18相对路径和绝对路径&#34;&gt;&lt;strong&gt;18.相对路径和绝对路径&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;相对路径：相对于某个基准目录的路径。包含Web的相对路径（HTML中的相对目录）&lt;/p&gt;
+&lt;p&gt;绝对路径：绝对路径就是你的主页上的文件或目录在硬盘上真正的路径&lt;/p&gt;
+&lt;p&gt;例如：绝对路径C:/wwwroot/img/1.jpg&lt;/p&gt;
+&lt;p&gt;相对路径：img/1.jpg&lt;/p&gt;
+&lt;h3 id=&#34;19判断web应用是否属于cms的重要性&#34;&gt;&lt;strong&gt;19.判断Web应用是否属于CMS的重要性&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;CMS属于开源程序，很多白帽通过代码审计去寻找漏洞，导致漏洞存在的概率极低&lt;/p&gt;
+&lt;p&gt;若非CMS，则挖到的漏洞概率较大&lt;/p&gt;
+&lt;h3 id=&#34;20白盒黑盒测试&#34;&gt;&lt;strong&gt;20.白盒/黑盒测试&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;白盒测试：指攻击者通过Web源码进行漏洞审计&lt;/p&gt;
+&lt;p&gt;黑盒测试：指攻击者在没有任何的帮助下进行漏洞的挖掘&lt;/p&gt;
+&lt;h3 id=&#34;21状态码解析&#34;&gt;&lt;strong&gt;21.状态码解析&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;200：请求成功或文件存在&lt;/p&gt;
+&lt;p&gt;304：从本地缓存中获取文件状态码&lt;/p&gt;
+&lt;p&gt;403：访问的文件没有权限或者是目录无权限&lt;/p&gt;
+&lt;p&gt;404：访问文件不存&lt;/p&gt;
+&lt;p&gt;500：服务端出现问题&lt;/p&gt;
+&lt;p&gt;502：源服务器无法访问&lt;/p&gt;
+&lt;h1 id=&#34;虚拟机安装windows2012r2搭建apachemysqlphp&#34;&gt;&lt;strong&gt;虚拟机安装WIndows2012R2搭建Apache+mysql+PHP&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;一-虚拟机安装window2012系统&#34;&gt;&lt;strong&gt;一、虚拟机安装window2012系统&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1将镜像文件导入并创建虚拟机&#34;&gt;&lt;strong&gt;1.将镜像文件导入，并创建虚拟机&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;2安装&#34;&gt;&lt;strong&gt;2.安装&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/1596989782692.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/snipaste_2020-08-03_23-27-53.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/snipaste_2020-08-03_23-29-06.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;4&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/snipaste_2020-08-03_23-29-49.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;3调出桌面图标&#34;&gt;&lt;strong&gt;3.调出桌面图标&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;5&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;6&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;4远程连接&#34;&gt;&lt;strong&gt;4..远程连接&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;关闭防火墙&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;7&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/3.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;8&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/4.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;9&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/5.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;开启远程连接&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;10&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/6.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;11&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/7.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5连接&#34;&gt;&lt;strong&gt;5.连接&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;本机打开mstsc，输入IP地址，账号，密码，连接&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;12&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/8.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;13&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/9.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;6连接成功&#34;&gt;&lt;strong&gt;6.连接成功&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;14&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/10.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;二-apache安装&#34;&gt;&lt;strong&gt;二、Apache安装&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1安装补丁-kb2919442&#34;&gt;&lt;strong&gt;1.安装补丁 KB2919442&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;下载地址 https://www.microsoft.com/zh-cn/download/details.aspx?id=42153
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;15&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/11.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2安装-windows-server-2012-r2-update-kb2919355-所有补丁&#34;&gt;&lt;strong&gt;2.安装 Windows Server 2012 R2 Update (KB2919355) 所有补丁&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;下载地址：https://www.microsoft.com/en-us/download/details.aspx?id=42334
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;16&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/12.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;3安装vc15&#34;&gt;&lt;strong&gt;3.安装vc15&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;下载地址：https://www.microsoft.com/zh-cn/download/details.aspx?id=48145
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;17&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/13.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;4下载appache&#34;&gt;&lt;strong&gt;4.下载appache&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;下载地址：https://www.apachehaus.com/cgi-bin/download.plx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;将其解压到c盘根目录&lt;/p&gt;
+&lt;h3 id=&#34;5安装appache&#34;&gt;&lt;strong&gt;5.安装appache&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;在appache/bin目录下打开cmd命令窗口，输入httpd -k install&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;18&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/14.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;6安装成功&#34;&gt;&lt;strong&gt;6.安装成功&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;输入httpd，然后在浏览器输入127.0.0.1进入查看，即可安装成功&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;19&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/15.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;20&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/16.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;7修改网站默认文件夹&#34;&gt;&lt;strong&gt;7.修改网站默认文件夹&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;打开Apache/conf/httpd.conf，修改一下内容&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;21&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/17.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;22&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/18.1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;重启httpd服务&lt;/p&gt;
+&lt;h2 id=&#34;三-php安装&#34;&gt;&lt;strong&gt;三、PHP安装&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1下载php5639&#34;&gt;&lt;strong&gt;1.下载php5.6.39&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;下载地址：https://windows.php.net/downloads/releases/archives/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2将php文件解压到apache下新建php文件夹放入&#34;&gt;&lt;strong&gt;2.将php文件解压，到Apache下新建php文件夹，放入&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;23&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/18.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;四-appache与php配置&#34;&gt;&lt;strong&gt;四、appache与php配置&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;将php安装目录下的php.ini-production改名为php.ini，并设置以下内容&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1设置php的扩展路径&#34;&gt;&lt;strong&gt;1.设置php的扩展路径&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;查找 extension_dir = &amp;quot;./&amp;quot; ，在后面添加&lt;/p&gt;
+&lt;p&gt;extension_dir = &amp;quot;ext&amp;quot;&lt;/p&gt;
+&lt;p&gt;extension=php_mbstring.dll&lt;/p&gt;
+&lt;p&gt;extension=php_mysql.dll&lt;/p&gt;
+&lt;p&gt;extension=php_mysqli.dll&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;24&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/19.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2设置时区&#34;&gt;&lt;strong&gt;2.设置时区&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;查找 date.timezone =&lt;/p&gt;
+&lt;p&gt;设置为date.timezone = Asia/Shanghai&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;25&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/20.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;打开Apache24\conf\httpd.conf，并做以下设置&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1设置loadmodule-xml2enc_module-modulesmod_xml2encso&#34;&gt;&lt;strong&gt;1.设置#LoadModule xml2enc_module modules/mod_xml2enc.so&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;查找#LoadModule xml2enc_module modules/mod_xml2enc.so，并在最后追加如下代码：&lt;/p&gt;
+&lt;p&gt;LoadModule php5_module C:/Apache24/PHP5.6.39/php5apache2_4.dll&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;26&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/21.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2设置addencoding-x-gzip-gz-tgz&#34;&gt;&lt;strong&gt;2.设置#AddEncoding x-gzip .gz .tgz&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;查找#AddEncoding x-gzip .gz .tgz，并追加以下代码&lt;/p&gt;
+&lt;p&gt;AddType application/x-httpd-php .php&lt;/p&gt;
+&lt;p&gt;AddType application/x-httpd-php-source .phps&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;27&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/22.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;3指定phpini配置文件路径&#34;&gt;&lt;strong&gt;3.指定php.ini配置文件路径&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;在httpd.conf文件里指定PHP配置文件php.ini的目录，这里定位到httpd.conf文件的未尾，在文本最后面一行添加 如下代码：&lt;/p&gt;
+&lt;p&gt;PHPIniDir &amp;quot;D:/ php&amp;quot;  （这里的“D:/ php”为你的php.ini文件存放的实际路径）&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;28&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/23.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;4配置directoryindex&#34;&gt;&lt;strong&gt;4.配置DirectoryIndex&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;查找DirectoryIndex，在DirectoryIndex的后面追加一个“index.php index.htm”&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;29&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/24.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5将下面两行代码的注释号去掉&#34;&gt;&lt;strong&gt;5.将下面两行代码的注释（#号）去掉&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;#LoadModule rewrite_module modules/mod_rewrite.so&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;30&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/25.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;#LoadModule vhost_alias_module modules/mod_vhost_alias.so&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;31&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/26.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;6测试&#34;&gt;&lt;strong&gt;6.测试&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;写入一个php代码文件，用浏览器打开，并进行 测试，解析成功&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;32&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/27.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;五-mysql安装&#34;&gt;&lt;strong&gt;五、mysql安装&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1下载mysql&#34;&gt;&lt;strong&gt;1.下载mysql&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;下载地址：https://dev.mysql.com/downloads/mysql/5.6.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2将mysql文件解压到apache下新建mysql文件夹放入&#34;&gt;&lt;strong&gt;2.将mysql文件解压，到Apache下新建mysql文件夹，放入&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;33&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/28.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;3安装mysql&#34;&gt;&lt;strong&gt;3.安装mysql&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;进入bin目录，进入cmd，输入mysqld install进行安装&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mysqld -install 
+提示：Service successfully installed.//安装成功
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;4初始化数据&#34;&gt;&lt;strong&gt;4.初始化数据&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;mysqld --initialize-insecure --user=mysql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;34&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/29.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5启动mysql&#34;&gt;&lt;strong&gt;5.启动mysql&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;net start mysql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;35&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/30.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;6登陆mysql&#34;&gt;&lt;strong&gt;6.登陆mysql&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;mysql -uroot -p 
+密码为空，直接回车即可
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;36&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/31.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;7使用navicat连接数据库&#34;&gt;&lt;strong&gt;7.使用navicat连接数据库&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;默认密码为空&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;37&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/32.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;连接成功&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;38&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/33.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;云服务器搭建论坛&#34;&gt;&lt;strong&gt;云服务器搭建论坛&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1服务器和域名的购买&#34;&gt;&lt;strong&gt;1.服务器和域名的购买&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;自行在阿里云，腾讯云，华为云等等购买&lt;/p&gt;
+&lt;p&gt;这里以阿里云为例&lt;/p&gt;
+&lt;p&gt;服务器为Windows 2012 R2&lt;/p&gt;
+&lt;p&gt;我这里购买的域名为mtkong.top&lt;/p&gt;
+&lt;h2 id=&#34;2解析dns&#34;&gt;&lt;strong&gt;2.解析DNS&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;将域名解析到服务器IP&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;39&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/34.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;记录类型为A代表直接解析到IP地址&lt;/p&gt;
+&lt;p&gt;主机记录为bbs代表可以使用bbs.mtkong.top访问&lt;/p&gt;
+&lt;p&gt;主机记录为@代表可以使用mtkong.top访问&lt;/p&gt;
+&lt;p&gt;主机记录为www代表可以使用www.mtkong.top访问&lt;/p&gt;
+&lt;h2 id=&#34;3远程连接&#34;&gt;&lt;strong&gt;3.远程连接&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;使用本机mstsc进行远程连接服务器，输入账号密码，即可连接，注意连接端口，各个厂商可能会有不同&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;40&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/35.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;连接成功&lt;/p&gt;
+&lt;h2 id=&#34;4宝塔安装&#34;&gt;&lt;strong&gt;4.宝塔安装&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;关闭IE增强安全配置&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;41&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/36.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;在浏览器输入www.bt.cn下载windows版本，并进行安装&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;42&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/37.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;默认安装即可&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;43&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/38.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;5登陆宝塔&#34;&gt;&lt;strong&gt;5.登陆宝塔&lt;/strong&gt;&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;44&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/39.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;安装完会弹出这个信息，点击访问，并输入账号密码，进行登陆&lt;/p&gt;
+&lt;p&gt;如果登陆失败，请查看8888端口是否开放，没有的话请开放&lt;/p&gt;
+&lt;p&gt;这里阿里云没有开放，需要自行开放&lt;/p&gt;
+&lt;p&gt;在安全组开放8888端口&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;45&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/40-1596988316479.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;登陆成功&lt;/p&gt;
+&lt;h2 id=&#34;6搭建论坛&#34;&gt;&lt;strong&gt;6.搭建论坛&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1安装appache组件&#34;&gt;&lt;strong&gt;1.安装appache组件&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;46&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/41-1596988331586.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;47&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/43-1596988407484.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;上述消息中并未进行安装php，自行到软件商店进行安装&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;48&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/44.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2创建网站&#34;&gt;&lt;strong&gt;2.创建网站&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;49&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/45-1596988435774.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;由于我的域名没有备案，用不了80端口，就是用8936端口，需要在网站后面添加:8986&lt;/p&gt;
+&lt;p&gt;这样的话需要看看服务器8936端口开放没有，没有的话需要去开放&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;50&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/46-1596988455656.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;根目录即为网站文件存放的位置&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;51&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/47-1596988467835.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;然后浏览器输入www.mtkong.top:8936，进行访问，出现这个即为创建成功&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;52&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/48.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;3使用navicat连接数据库&#34;&gt;&lt;strong&gt;3.使用navicat连接数据库&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;将navicat文件夹复制到服务器内，解压使用&lt;/p&gt;
+&lt;p&gt;打开navicat，连接数据库&lt;/p&gt;
+&lt;p&gt;数据库密码在宝塔内查看&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;53&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/49.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;54&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/50.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;连接成功&lt;/p&gt;
+&lt;h3 id=&#34;4新建论坛数据库和用户&#34;&gt;&lt;strong&gt;4.新建论坛数据库和用户&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;新建数据库，名称为discuz&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;55&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/51.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;新建用户为discuz，对discuz数据库进行管理&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;56&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/52.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;添加权限，使得对discuz数据库拥有全部权限&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;57&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/53.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;确定，保存即可&lt;/p&gt;
+&lt;h3 id=&#34;5连接discuz数据库&#34;&gt;&lt;strong&gt;5.连接discuz数据库&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;58&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/54.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;59&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/55.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;连接成功&lt;/p&gt;
+&lt;h3 id=&#34;6上传论坛源码&#34;&gt;&lt;strong&gt;6.上传论坛源码&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;将discuz论坛源码文件复制到网站根目录，先将根目录下的index.html删除&lt;/p&gt;
+&lt;p&gt;将源码中upload目录下的文件致网站根目录&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;60&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/56.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;61&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/57.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;完成&lt;/p&gt;
+&lt;h3 id=&#34;7安装论坛&#34;&gt;&lt;strong&gt;7.安装论坛&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;打开网站&lt;a href=&#34;http://www.mtkong.top:8936&#34;&gt;www.mtkong.top:8936&lt;/a&gt;，并进行安装&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;62&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/58.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;63&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/59.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;数据库的设置需要与刚才新建的discuz数据库设置一样&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;64&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/60.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;安装完成&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;65&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/61.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;8访问论坛&#34;&gt;&lt;strong&gt;8.访问论坛&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;在右上角，输入管理员账号密码，进行登陆&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;66&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/62.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;登陆管理后台，点击管理中心&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;67&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/63.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;输入密码&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;68&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/64.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;登陆后台成功&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;69&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/65.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;网站搬家&#34;&gt;&lt;strong&gt;网站搬家&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;1导出数据库和网站源码&#34;&gt;&lt;strong&gt;1.导出数据库和网站源码&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;导出数据库&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;70&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/66.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;将网站根目录打包&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;71&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/67.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;2dns解析设置&#34;&gt;&lt;strong&gt;2.DNS解析设置&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;将域名解析指向新的服务器IP地址&lt;/p&gt;
+&lt;h2 id=&#34;3新建站点&#34;&gt;&lt;strong&gt;3.新建站点&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;在新服务器里新建网站和数据库&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;72&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/68.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;4导入数据库&#34;&gt;&lt;strong&gt;4.导入数据库&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;打开navicat，连接bbs数据库，并将论坛数据库导入&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;73&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/69.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;74&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/70.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;导入数据库，将下面第一个的√去掉&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;75&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/71.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;导入完成&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;76&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/72.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;5导入源码&#34;&gt;&lt;strong&gt;5.导入源码&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;将源码解压放进网站根目录&lt;/p&gt;
+&lt;p&gt;先删除404.html和index.html&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;77&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/73.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;复制过程中，选择跳过这两个文件&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;78&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/74.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;6修改配置文件&#34;&gt;&lt;strong&gt;6.修改配置文件&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;打开网站根目录下config/config_global.php&lt;/p&gt;
+&lt;p&gt;将以下三个地方改成正确的值&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;79&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/75.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;打开根目录config/config_ucenter.php&lt;/p&gt;
+&lt;p&gt;修改以下地方为正确的值&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;80&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/76.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;7访问论坛&#34;&gt;&lt;strong&gt;7.访问论坛&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;访问论坛，进行登陆&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;81&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/77.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;登陆成功，成功进入后台&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;82&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/78.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;8网站搬家成功&#34;&gt;&lt;strong&gt;8.网站搬家成功&lt;/strong&gt;&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;83&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/79.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;信息收集&#34;&gt;&lt;strong&gt;信息收集&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;从二进制木马中进行信息收集&#34;&gt;&lt;strong&gt;从二进制木马中进行信息收集&lt;/strong&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://s.threatbook.cn/report/file/453cfcf1d98d3e017d284ff25fbe97c11a989eef18554c4ca5823d86e83d189c/?sign=history&amp;amp;env=win7_sp1_enx86_office2013
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;1对ip地址进行查询&#34;&gt;&lt;strong&gt;1.对IP地址进行查询&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://x.threatbook.cn/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以发现绑定的域名&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;84&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/80.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2查询idc&#34;&gt;&lt;strong&gt;2.查询IDC&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://www.ipip.net/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;85&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/81.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;3通过域名进行反查&#34;&gt;&lt;strong&gt;3.通过域名进行反查&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://x.threatbook.cn/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;86&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/82.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;可以进一步发现历史解析记录，和DNS解析记录&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;87&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/83.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;4通过历史解析记录查询&#34;&gt;&lt;strong&gt;4.通过历史解析记录查询&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;查询历史解析的IP&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://x.threatbook.cn/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;88&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/84.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5通过域名进行查询&#34;&gt;&lt;strong&gt;5.通过域名进行查询&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://www.whois.com/whois/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;查到关键信息&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;89&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/85.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;6查询域名&#34;&gt;&lt;strong&gt;6.查询域名&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://x.threatbook.cn/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;查到关键信息&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;90&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/86.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;7利用百度对关键qq查询&#34;&gt;&lt;strong&gt;7.利用百度对关键QQ查询&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;91&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/87.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;92&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/88.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;8利用百度对关键电话查询&#34;&gt;&lt;strong&gt;8.利用百度对关键电话查询&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;93&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/89.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;9对手机号注册的信息查询&#34;&gt;&lt;strong&gt;9.对手机号注册的信息查询&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://www.reg007.com/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;94&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/90.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;10对qq邮箱注册的信息查询&#34;&gt;&lt;strong&gt;10.对QQ邮箱注册的信息查询&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://www.reg007.com/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;95&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/91.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;11通过注册人进行反差&#34;&gt;&lt;strong&gt;11.通过注册人进行反差&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;地址：https://whois.aizhan.com/reverse-whois/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;96&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/92.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;12通过支付宝转账进行确认姓名&#34;&gt;&lt;strong&gt;12.通过支付宝转账进行确认姓名&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;97&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/93.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;渗透过程中信息收集&#34;&gt;&lt;strong&gt;渗透过程中信息收集&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1通过响应包获取信息&#34;&gt;&lt;strong&gt;1.通过响应包获取信息&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Server：容器类型与型号&lt;/p&gt;
+&lt;p&gt;X-Powered-By：脚本类型与型号&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://www.chipmore.com.cn/index.asp 
+Windows 
+Microsoft-IIS/6.0 
+Access
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;98&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/94.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code&gt;http://www.prodoctor.cn/Product/Index.aspx 
+Windows 
+Microsoft-IIS/7.5 
+SQL Server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;99&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/95.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code&gt;https://passport.jumpw.com/login.jsp 
+Linux 
+Apache-Coyote/1.1 
+MYSQL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;100&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/96.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code&gt;http://www.oldkids.cn/index.php 
+Linux 
+nginx 
+MYSQL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;101&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/97.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2根据sessionid名称收集信息&#34;&gt;&lt;strong&gt;2.根据SESSIONID名称收集信息&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;http://cx.cnca.cn/CertECloud/index/index/page Tomcat 
+JSP 
+LINUX 
+大型网站数据库不是MYSQL 就是 ORACLE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;http://www.fjhuide.com/index.asp 
+IIS 
+ASP 
+WINDOWS 
+小型企业网站数据库：ACCESS
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;http://www.ghlawyer.net/web/index.aspx 
+IIS 
+ASP.NET 
+WINDOWS 
+基本上都是SQL SERVER
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;http://www.qingxin.com.cn/cn/index.php 
+APPACHE 或 NGINX 更偏向与appache 
+PHP 
+LINUX 
+基本上都是MYSQL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;http://ruanwenad.cn/ 
+表情可以确定为Thinkphp框架 
+PHP 
+LINUX 
+MYSQL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;102&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/98.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;3通过403-404页面信息收集&#34;&gt;&lt;strong&gt;3.通过403 404页面信息收集&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;403 404页面在IIS各个版本中会有所区别，从而判断出对方的IIS版本及操作系统&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://www.hilonggroup.com/index.php 
+win2008 
+IIS
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;103&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/99.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code&gt;http://www.fjhuide.com/index.asp 
+win2003 
+IIS
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;104&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/100.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;4通过指定目标信息收集&#34;&gt;&lt;strong&gt;4.通过指定目标信息收集&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;https://www.butian.net/Loo/submit?cid=63010
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;拿到域名之后到天眼查去搜一下&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://www.tianyancha.com/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;105&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/101.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;然后看其知识产权中的网站备案&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;106&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/102.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;之后对其进行子域名收集&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;bamboocloud.com 
+bccastle.com 
+bamboocloud.cn（已废弃）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以使用子域名挖掘机&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;107&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/103.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;108&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/104.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;或者是百度语法&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;109&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/105.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;110&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/106.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;利用域名找到ip进行c段扫描&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;https://x.threatbook.cn/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;111&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/107.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;112&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/108.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;渗透测试常用工具安装&#34;&gt;&lt;strong&gt;渗透测试常用工具安装&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;burp-suite&#34;&gt;&lt;strong&gt;Burp Suite&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1下载java运行环境&#34;&gt;&lt;strong&gt;1.下载java运行环境&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;https://www.java.com/zh_CN/download/windows-64bit.jsp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;113&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/109.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;2burp-suite下载&#34;&gt;&lt;strong&gt;2.Burp Suite下载&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;https://portswigger.net/burp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;3常用插件下载&#34;&gt;&lt;strong&gt;3.常用插件下载&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;FoxyProxy&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;114&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/110.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;EditThisCookie&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;115&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/111.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;User-Agent Switcher&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;116&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/112.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;4代理设置&#34;&gt;&lt;strong&gt;4.代理设置&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;打开插件FoxyProxy，进行编辑&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;117&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/113.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;5证书下载&#34;&gt;&lt;strong&gt;5.证书下载&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;打开burp，进行代理设置&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;118&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/114.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;与插件上的设置一样即可&lt;/p&gt;
+&lt;p&gt;开启插件&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;119&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/115.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;开启抓包&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;120&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/116.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;在浏览器里输入:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://burp
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;进行下载证书&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;121&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/117.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;安装证书&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;122&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/118.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;6抓包&#34;&gt;&lt;strong&gt;6.抓包&lt;/strong&gt;&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;123&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/119.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;7局部全局代理&#34;&gt;&lt;strong&gt;7.局部/全局代理&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Burp只能抓取基于HTTP和HTTPS协议传输的数据包&lt;/p&gt;
+&lt;p&gt;局部代理：抓取特定范围内的数据包，例之抓取火狐浏览器&lt;/p&gt;
+&lt;p&gt;全局代理：抓取全部数据包&lt;/p&gt;
+&lt;p&gt;有的文件上传基于Flash上传，而Flash上传不在浏览器内，就要设置全局代理&lt;/p&gt;
+&lt;p&gt;打开IE浏览器，找到代理设置&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;124&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/120.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;设置代理&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;125&#34;&gt;&lt;img src=&#34;https://kong4489.github.io/post-images/121.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;就设置成全局代理。&lt;/p&gt;
+&lt;h1 id=&#34;如何自学信息安全&#34;&gt;&lt;strong&gt;如何自学信息安全&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;毅力&#34;&gt;&lt;strong&gt;毅力&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;1.你对这行的兴趣，决定你在这行的成绩。&lt;/p&gt;
+&lt;p&gt;2.保持自律学习。&lt;/p&gt;
+&lt;p&gt;3.针对知识点做笔记&lt;/p&gt;
+&lt;h2 id=&#34;web漏洞&#34;&gt;&lt;strong&gt;Web漏洞&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;学习代码&#34;&gt;&lt;strong&gt;学习代码&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Web语言：PHP、Python、JAVA&lt;/p&gt;
+&lt;p&gt;后端渗透：C、Golang&lt;/p&gt;
+&lt;h3 id=&#34;前端漏洞&#34;&gt;&lt;strong&gt;前端漏洞&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;1.越权漏洞&lt;/p&gt;
+&lt;p&gt;2.弱口令漏洞&lt;/p&gt;
+&lt;p&gt;3.未授权访问&lt;/p&gt;
+&lt;p&gt;4.逻辑漏洞&lt;/p&gt;
+&lt;p&gt;5.CSRF漏洞&lt;/p&gt;
+&lt;p&gt;6.XSS漏洞&lt;/p&gt;
+&lt;p&gt;7.文件上传漏洞&lt;/p&gt;
+&lt;p&gt;8.SSRF漏洞&lt;/p&gt;
+&lt;p&gt;9.SQL注入漏洞&lt;/p&gt;
+&lt;p&gt;10.JSONP劫持&lt;/p&gt;
+&lt;p&gt;11.CORS跨域劫持&lt;/p&gt;
+&lt;p&gt;12.任意文件下载&lt;/p&gt;
+&lt;p&gt;13.其他漏洞：信息泄露、URL跳转、短信轰炸&lt;/p&gt;
+&lt;p&gt;14.其他：XXE漏洞、缓存劫持漏洞、验证码放大导致拒绝服务器攻击&lt;/p&gt;
+&lt;h2 id=&#34;专业名词&#34;&gt;&lt;strong&gt;专业名词&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;apt&#34;&gt;&lt;strong&gt;APT&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;APT攻击，即高级可持续威胁攻击,也称为定向威胁攻击，指某组织对特定对象展开的持续有效的攻击活动。这种攻击活动具有极强的隐蔽性和针对性,通常会运用受感染的各种介质、&lt;a href=&#34;https://baike.baidu.com/item/%E4%BE%9B%E5%BA%94%E9%93%BE/139061&#34;&gt;供应链&lt;/a&gt;和&lt;a href=&#34;https://baike.baidu.com/item/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B%E5%AD%A6/2136830&#34;&gt;社会工程学&lt;/a&gt;等多种手段实施先进的、持久的且有效的威胁和攻击。&lt;/p&gt;
+">安全基础学习笔记</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://kong4489.github.io/post/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+">关于</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  !function () {
+    let times = document.querySelectorAll('.publish-time');
+    for (let i = 0; i < times.length; i++) {
+      let date = times[i].dataset.t;
+      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+      if (time < 60) {
+        str = time + '秒之前';
+      } else if (time < 3600) {
+        str = Math.floor(time / 60) + '分钟之前';
+      } else if (time >= 3600 && time < 86400) {
+        str = Math.floor(time / 3600) + '小时之前';
+      } else if (time >= 86400 && time < 259200) {
+        str = Math.floor(time / 86400) + '天之前';
+      } else {
+        str = times[i].textContent;
+      }
+      times[i].textContent = str;
+    }
+  }();
+</script>
+
+<script>
+  let language = '';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 200
+  });
+</script>
+
+
+<script src="/media/js/mouse/love.js"></script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/lete114/CDN/Sum/sakura.js"></script>
+
+</html>
